@@ -28,7 +28,7 @@ const VW = Math.round(1920 * rs), VH = Math.round(1080 * rs);
   const page = await browser.newPage({ viewport: { width: VW, height: VH }, deviceScaleFactor: 1 });
   page.on('console', (m) => { if (m.type() === 'error') console.error('[page]', m.text()); });
   page.on('pageerror', (e) => console.error('[pageerror]', e.message));
-  await page.goto(pathToFileURL(html).href + '?render=1&rs=' + rs + (q ? '&' + q : ''));
+  await page.goto(pathToFileURL(html).href + '?render=1&rs=' + rs + (q ? '&' + q : ''), { waitUntil: 'load', timeout: 180000 });
   await page.waitForFunction(() => typeof window.__seek === 'function', {}, { timeout: 180000 });
   const dur = await page.evaluate(() => window.__duration);
   const fps = await page.evaluate(() => window.__fps);
