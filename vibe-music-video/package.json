@@ -1,0 +1,29 @@
+{
+  "name": "vibe-music-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent-ready illustrated Chinese music videos with word-timed animated lyrics",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "packageManager": "pnpm@10.28.2",
+  "scripts": {
+    "doctor": "node scripts/mv.mjs doctor",
+    "keys": "node scripts/mv.mjs keys",
+    "preview": "node scripts/mv.mjs preview",
+    "demo": "node scripts/mv.mjs render",
+    "render": "node scripts/mv.mjs render",
+    "verify": "node scripts/mv.mjs verify",
+    "serve": "node scripts/mv.mjs serve",
+    "align": "node scripts/mv.mjs align",
+    "new": "node scripts/mv.mjs new",
+    "test": "node --test tests/*.test.mjs",
+    "package": "node scripts/mv.mjs package"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.454",
+    "@remotion/renderer": "4.0.454",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.454"
+  }
+}
