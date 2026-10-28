@@ -1,0 +1,38 @@
+[
+  {
+    "name": "bedroom",
+    "transparent": false,
+    "prompt": "Use case: illustration-story. Asset: full-bleed 16:9 animated MV background. Tactile pencil outline and watercolor-on-cream-paper illustration, same cozy high-quality hand-painted chibi music-video world as reference. Warm ochre/coral highlights, muted teal and indigo, delicate grain, crisp readable silhouettes, polished illustrated animation production asset. No lettering, no captions, no logos, no watermark. Reference image 1 is a style reference only, not a layout to copy. Draw a cozy young adult's bedroom at night, in SIDE-ON stage composition with gentle depth. EMPTY room, NO PEOPLE, NO ANIMALS. On the RIGHT half is a wooden single bed seen mostly from the side: mattress extends horizontally from x roughly 850 to 1840 of a 1920-wide frame, mattress top about y750, tall headboard at the far RIGHT, pillow near the right end. Soft cream sheet and folded dusty-blue blanket, enough visible horizontal mattress to composite a sleeping character with head right and feet left. A low bedside table around the center-left of the bed with small warm lamp and a simple blank-face alarm clock. On the LEFT, a large window with moon and distant city windows; under it a cozy rug, a couple of books, slippers, small potted plant. Muted midnight teal walls, indigo shadows, honey-gold lamp light, comforting not gloomy. Keep upper center-left wall spacious for animated memory film frames later. No foreground objects that obscure the bed. Preserve a complete wide view without borders. No clocks digits or readable text; all typography added in animation.",
+    "generator": "built-in image_gen",
+    "reference_role": "Art style",
+    "file": "assets/bedroom.png",
+    "reference": "Use bundled assets/cafe-cast.png for identity and docs/images/example-frame.jpg for style; these references are optional when designing new characters."
+  },
+  {
+    "name": "cafe",
+    "transparent": false,
+    "prompt": "Use case: illustration-story. Asset: full-bleed 16:9 animated MV background. Tactile pencil outline and watercolor-on-cream-paper illustration, same cozy high-quality hand-painted chibi music-video world as reference. Warm ochre/coral highlights, muted teal and indigo, delicate grain, crisp readable silhouettes, polished illustrated animation production asset. No lettering, no captions, no logos, no watermark. Reference image 1 is style only. Draw a charming small takeaway coffee/pastry shop at golden afternoon. EMPTY scene with NO PEOPLE. Stage composition: LEFT half is open floor with window/doorway, enough empty space for a full-body customer; RIGHT half has a serving counter whose top is around y650 of a 1080-high frame and front panel extends downward, where a clerk's upper body can be composited behind the counter. The back wall has coffee machine, cup shelves and a small pastry display, gentle green tiles, sunlight through windows, cozy hand-made furniture. Clear counter edge, no clutter in the actor zones. No visible lettering on menus, bags, cups or signage. Warm and inviting, with enough contrast for blue hoodie customer and dark-haired apron clerk. Complete wide background, not a poster, no panels.",
+    "generator": "built-in image_gen",
+    "reference_role": "Art style",
+    "file": "assets/cafe.png",
+    "reference": "Use bundled assets/cafe-cast.png for identity and docs/images/example-frame.jpg for style; these references are optional when designing new characters."
+  },
+  {
+    "name": "pajama-atlas",
+    "transparent": true,
+    "prompt": "Use case: identity-preserve. Asset: 3-column by 2-row transparent sprite atlas, canvas 1536x1024. Tactile pencil outline and watercolor-on-cream-paper illustration, same cozy high-quality hand-painted chibi music-video world as reference. Warm ochre/coral highlights, muted teal and indigo, delicate grain, crisp readable silhouettes, polished illustrated animation production asset. No lettering, no captions, no logos, no watermark. Reference image 1 is the exact identity reference: use ONLY THE BOY from its right half (messy black hair, large brown eyes, small hoop earrings), never the girl. Draw the same young adult chibi boy in pale blue buttoned pajamas with subtle moon motifs, soft slippers. EXACTLY SIX isolated non-overlapping poses in regular equal cells with at least 45px transparent margins. Top-left: standing, eyes sleepy, yawning with a hand by mouth. Top-middle: sitting cross-legged, wide awake, startled, tightly hugging a cream pillow. Top-right: sitting on an invisible bed edge, holding a small remote pointing to the LEFT, mildly exasperated funny expression. Bottom-left: lying HORIZONTALLY with HEAD ON RIGHT and FEET ON LEFT, eyes closed, head on small cream pillow, whole body visible, no bed or background. Bottom-middle: sitting and hiding most of face behind a large cream pillow, embarrassed. Bottom-right: sitting calmly with closed eyes and small relieved smile, hugging a pillow, shoulders relaxed. Consistent identity, costume and body scale, natural hands. NO TEXT, NO CELL LINES, NO SHADOW BACKDROP, true transparent background with clean alpha. All body parts and props stay within their own cells.",
+    "generator": "built-in image_gen",
+    "reference_role": "Character identity",
+    "file": "assets/pajama-atlas.png",
+    "reference": "Use bundled assets/cafe-cast.png for identity and docs/images/example-frame.jpg for style; these references are optional when designing new characters."
+  },
+  {
+    "name": "cafe-cast",
+    "transparent": true,
+    "prompt": "Use case: identity-preserve. Asset: two-character transparent sprite atlas, 1536x1024 landscape. Tactile pencil outline and watercolor-on-cream-paper illustration, same cozy high-quality hand-painted chibi music-video world as reference. Warm ochre/coral highlights, muted teal and indigo, delicate grain, crisp readable silhouettes, polished illustrated animation production asset. No lettering, no captions, no logos, no watermark. Reference image 1 is exact character identity. LEFT half: same long chestnut-haired girl with pink bows and tiny flower clips, same black dress with pink trim, now wearing a muted green barista apron over it. Friendly amused smile, right hand lifted near shoulder in a relaxed goodbye wave, left hand lowered. RIGHT half: same black-haired boy in blue hoodie and black trousers, holding a plain takeaway cup in one hand and small plain pastry bag in the other, cheeks blushing and embarrassed smile as if he said something silly. Both young adult chibi characters, full body including shoes, equal head scale, generous empty transparent separation at center and outer edges. No writing on cups or bag, no text anywhere. No painted background, no floor or backdrop shadow, genuine transparent PNG, clean edges.",
+    "generator": "built-in image_gen",
+    "reference_role": "Character identity",
+    "file": "assets/cafe-cast.png",
+    "reference": "Use bundled assets/cafe-cast.png for identity and docs/images/example-frame.jpg for style; these references are optional when designing new characters."
+  }
+]
