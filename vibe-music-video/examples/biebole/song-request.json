@@ -1,0 +1,21 @@
+{
+  "title": "别播了",
+  "theme": "睡前自动回放白天尴尬瞬间",
+  "lyrics": [
+    "灯一关 脑袋开机",
+    "白天的尴尬 突然高清",
+    "店员说慢走 我说你也是",
+    "这段小事 又循环一次",
+    "别播了 别播了",
+    "我真的要睡了",
+    "全世界都翻篇了",
+    "我还在这重播呢",
+    "枕头一翻 放过自己",
+    "明天的事 明天再理"
+  ],
+  "structured_lyrics": "[Verse]\n灯一关 脑袋开机\n白天的尴尬 突然高清\n店员说慢走 我说你也是\n这段小事 又循环一次\n\n[Chorus]\n别播了 别播了\n我真的要睡了\n全世界都翻篇了\n我还在这重播呢\n\n[Outro]\n枕头一翻 放过自己\n明天的事 明天再理",
+  "style": "Mandarin quirky funk-pop, about 100 BPM. Warm bright natural female lead, clear conversational Chinese diction, funny relatable bedtime overthinking story. Bouncy muted bass, crisp soft drums, plucked guitar, toy piano and marimba accents. Catchy melodic double-hook on 别播了别播了, playful syncopation, sing rather than speak. Warm comforting resolved ending. Compact 38–48 second complete jingle, maximum one-bar intro, sing each supplied line once, no long intro or instrumental break, no English, no rap, no exaggerated baby voice, no long outro.",
+  "model": "Music-3.0",
+  "source": "https://www.minimax.cn/audio/music",
+  "ai_generated": true
+}

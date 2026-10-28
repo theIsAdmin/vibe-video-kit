@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "slug": "biebole",
+  "title": "别播了",
+  "theme": "睡前自动回放白天尴尬瞬间",
+  "ready": true,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "timing": "timing.json",
+  "audio": {
+    "source": "audio/song.mp3",
+    "crop_start": 7.4072,
+    "gain_db": -2,
+    "fade_out": 0.45,
+    "ai_model": "MiniMax Music-3.0",
+    "export": "Official watermarked MP3"
+  },
+  "preview": {
+    "start": 8.6,
+    "end": 12.7666666667
+  },
+  "key_times": [
+    0.8,
+    3.208,
+    6.6240000000000006,
+    10.830400000000001,
+    14.48,
+    17.8856,
+    19.9184,
+    22.1264,
+    25.1456,
+    29.0648,
+    36.9424,
+    41.6
+  ],
+  "sound_design": "sound-design.json"
+}
