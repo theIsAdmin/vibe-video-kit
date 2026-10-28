@@ -9,3 +9,7 @@
 样片用于展示上游模板效果，保留模板中的示例内容与署名，不将这些署名或内容冒称为本项目原创。本仓库未收录第二期；可前往原仓库使用。
 
 Playwright、NumPy、SciPy由各自包管理器安装，遵循各自许可。推荐字体Noto Sans CJK SC、Noto Serif CJK SC、Inter需自行安装；本仓库不打包字体或系统运行环境。
+
+## 独立的中文歌曲 MV 模块
+
+`vibe-music-video/` 是新增的独立歌曲 MV 制作工程，代码、文档、分镜和时码按该目录内的 [MIT 许可证](vibe-music-video/LICENSE) 提供。示例歌曲由 MiniMax Music-3.0 根据歌词和曲风生成，插画包含 AI 生成素材；选用的音乐、两款附带字体和渲染依赖分别遵循 [模块第三方说明](vibe-music-video/THIRD_PARTY.md)。该模块的示例不是上述 sy-styles-20 的原始样片；其来源和许可不替代、取消或改写原有20种模板的作者署名与许可。

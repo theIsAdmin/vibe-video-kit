@@ -2,6 +2,8 @@
 
 这是基于肖雄 XIAOXIONG / sy-styles-20 的第一期20种代码视频模板目录。制作或改编前读取 `skills/vibe-video-kit/SKILL.md`。
 
+AI 中文歌曲、双角色歌词 MV 和逐字跳动主歌词任务使用独立的 `vibe-music-video/` 模块：先进入该目录，读取其中的 `AGENTS.md` 与 `skills/music-video/SKILL.md`。该模块有独立依赖、示例音乐、素材、时间线和验证记录；根目录的20种模板命令不管理它。
+
 - `catalog.json`、根目录 `index.html` 和 `README.md` 提供对应样片及源码入口。
 - 保持选定风格的材质、细节、光照、构图与镜头语言，按本次内容做必要替换。
 - 使用独立工作副本或新分支；预览样片用于风格参考，不能将上游示例署名、数字或情节冒充当前内容。

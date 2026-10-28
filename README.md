@@ -6,6 +6,20 @@
 
 本项目基于 **[肖雄 XIAOXIONG / sy-styles-20](https://github.com/xiaoxiong20xx-code/sy-styles-20)** 的第一期20种场景，新增样片目录、逐项视频与源码入口、调用说明及便携适配。保留原作者署名，采用 [MIT License](LICENSE)。完整来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
+## 新增：AI 中文歌曲 MV 工作流
+
+[进入完整工程与使用说明](vibe-music-video/README.md) · [给 agent 的制作 Skill](vibe-music-video/skills/music-video/SKILL.md) · [独立复现验证记录](vibe-music-video/docs/VALIDATION.md)
+
+先写歌、制作真实演唱，再让双角色、手绘场景、道具、剧情动作和上方主歌词跟着演唱编排。示例《别播了》附带选用的歌曲、插画、字体和字级时码，可以完整渲染 42.6 秒、1080p 的带音乐 MV；主歌词逐字弹起，画面底部不再重复放一条字幕。
+
+[![中文歌曲 MV 示例画面](vibe-music-video/docs/images/example-frame.jpg)](vibe-music-video/README.md)
+
+把整个仓库交给 agent，并告诉它：
+
+> 进入 `vibe-music-video/`，先读其中的 `AGENTS.md` 和 `skills/music-video/SKILL.md`，按 README 检查环境，先制作带音乐的短片段，再完整复现《别播了》。制作新主题时，先取得真实歌曲，再重新编排时码、角色、道具与动作。
+
+这个模块使用独立的 Node/Python 依赖和命令，先切换到 `vibe-music-video/` 目录再运行。代码采用 MIT；示例媒体、字体和音乐服务条件见其 [THIRD_PARTY.md](vibe-music-video/THIRD_PARTY.md)。下方仍为原有 20 种模板目录。
+
 ## 快速开始
 
 - 只看样片：打开上面的在线视频目录；下载ZIP后也可双击根目录 `index.html`。
