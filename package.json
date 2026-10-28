@@ -1,0 +1,26 @@
+{
+  "name": "vibe-video-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "20 code-generated video styles, preview clips, source links and AI instructions; based on sy-styles-20.",
+  "license": "MIT",
+  "author": "肖雄 XIAOXIONG (upstream templates)",
+  "contributors": [
+    {
+      "name": "theIsAdmin",
+      "url": "https://github.com/theIsAdmin"
+    }
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "playwright install chromium",
+    "list": "node make.js list",
+    "serve": "node scripts/serve.cjs",
+    "check": "node scripts/check.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}

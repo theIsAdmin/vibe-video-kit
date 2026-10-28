@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/xiaoxiong20xx-code/sy-styles-20",
+  "commit": "15d251afb5c40d00317c048fd77ba183e715a253",
+  "edition": 1,
+  "styles": 20,
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 肖雄 XIAOXIONG",
+  "changes": [
+    "Catalog and 20 web-preview clips",
+    "Public AI instructions and documentation",
+    "Windows still-path parsing and optional browser / FFmpeg configuration",
+    "FFmpeg error handling",
+    "Longer WebGL initialization timeout"
+  ]
+}

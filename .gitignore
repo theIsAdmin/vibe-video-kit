@@ -1,0 +1,10 @@
+node_modules/
+frames/
+out/
+__pycache__/
+*.pyc
+*.wav
+.env
+.env.*
+.DS_Store
+Thumbs.db
